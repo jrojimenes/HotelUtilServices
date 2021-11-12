@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+requests = "*"
+
+[packages]
+fastapi = ">=0.45.0,<1"
+uvicorn = "*"
+pydantic = "*"
+sqlalchemy = "*"
+pymysql = "*"
+python-multipart = "*"
+starlette = "*"
+authlib = "*"
+itsdangerous = "*"
+httpx = "*"
+pyjwt = "==1.7.1"
+python-decouple = "==3.3"
+gunicorn="*"
+fastapi-mail = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.9"
